@@ -1,0 +1,56 @@
+[ 2017-06-25T22:51:41+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-06-25T22:51:42+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-06-25T22:51:57+08:00 ] 127.0.0.1 /tshop/index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=1 )  [ RunTime:0.0006s ]
+
+[ 2017-06-25T22:51:58+08:00 ] 127.0.0.1 /tshop/index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=2 )  [ RunTime:0.0005s ]
+
+[ 2017-06-25T22:52:02+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Attr/getAttrById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `attr` [ RunTime:0.0120s ]
+SQL: SELECT a.*,t.type_name FROM attr AS a LEFT JOIN type AS t ON a.type_id=t.id WHERE t.id=1 [ RunTime:0.0007s ]
+
+[ 2017-06-25T22:52:08+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Attr/getAttrById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `attr` [ RunTime:0.0127s ]
+SQL: SELECT a.*,t.type_name FROM attr AS a LEFT JOIN type AS t ON a.type_id=t.id WHERE t.id=2 [ RunTime:0.0020s ]
+
+[ 2017-06-25T22:52:10+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Attr/getAttrById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `attr` [ RunTime:0.0091s ]
+SQL: SELECT a.*,t.type_name FROM attr AS a LEFT JOIN type AS t ON a.type_id=t.id WHERE t.id=4 [ RunTime:0.0005s ]
+
+[ 2017-06-25T22:52:11+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Attr/getAttrById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `attr` [ RunTime:0.0094s ]
+SQL: SELECT a.*,t.type_name FROM attr AS a LEFT JOIN type AS t ON a.type_id=t.id WHERE t.id=3 [ RunTime:0.0009s ]
+
+[ 2017-06-25T22:59:18+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Attr/getattrtype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `attr` [ RunTime:0.0113s ]
+SQL: SELECT a.*,t.type_name FROM attr AS a  LEFT JOIN type AS t ON a.type_id=t.id
+		 WHERE t.id=1 [ RunTime:0.0009s ]
+

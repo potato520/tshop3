@@ -1,0 +1,125 @@
+
+
+
+
+
+<include file="Tpl:head_main" />
+
+<script>
+
+	// 切换所属类型的属性
+	function searchAttr(type_id){
+		var url = "__MODULE__/Attr/getattrtype";
+
+		// 请求地址和传递的参数
+		$.post(url,{"type_id": type_id},
+			function(data){
+				console.log(data);
+
+				// 先删除列表页数据
+				$(".table tr:gt(0)").remove();
+
+				var html = "";
+				// 拼装数据
+
+				for(var i=0; i<data.length; i++){
+
+					 html += '<tr>\
+						<td>'+data[i].id+'</td>\
+						<td>'+data[i].attr_name+'</td>\
+						<td>'+data[i].type_name+'</td>\
+						<td>'+(data[i].attr_sel ==1 ? '多选': "唯一")+'</td>\
+						<td>'+(data[i].attr_write ==1 ? "列表选择" : "手动录入")+'</td>\
+						<td>'+data[i].attr_vals+'</td>\
+						<td>操作</td>\
+					</tr>';
+				}
+				$(".table").append(html);
+
+			},"json");
+
+	}
+
+</script>
+
+<!-- 内容区域 -->
+<div class="page-content">
+	<div class="row">
+		<div class="col-xs-12">
+
+			<!-- 通过onchange事件调用请求，获取对应类型的数据 -->
+			<select name="goods_type" onchange="searchAttr(this.value)">
+				<option value="">所有商品类型</option>
+				<volist name="type_data" id="v">
+					<option value="{$v.id}">{$v.type_name}</option>
+				</volist>
+			</select>
+
+			<div class="table-responsive">
+				<table id="sample-table-1" class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>属性id</th>
+							<th>属性名称</th>
+							<th>所属类型</th>
+							<th>选择是否可选</th>
+							<th class="hidden-480">属性录入方式</th>
+							<th>列表可选值</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<volist name="attrInfo" id="vo">
+
+							<tr>
+								<td>{$vo.id}</td>
+								<td>{$vo.attr_name}</td>
+								<td>{$vo.type_name}</td>
+								<td>{$vo['attr_sel'] ? "多选" : "唯一"}</td>
+								<td>{$vo['attr_write'] ? "列表选择" : "手动录入"}</td>
+								<td>{$vo.attr_vals}</td>
+								<td>操作</td>
+
+							</tr>
+						</volist>
+
+					</tbody>
+				</table>
+			</div>
+			<!-- /.table-responsive -->
+		</div>
+		<!-- /span -->
+	</div>
+</div>
+<ul class="pagination">
+	<li class="disabled">
+		<a href="#"> <i class="icon-double-angle-left"></i>
+		</a>
+	</li>
+	{$page}
+	<li>
+		<a href="#"> <i class="icon-double-angle-right"></i>
+		</a>
+	</li>
+</ul>
+
+<!-- 全选js -->
+<script>
+		$('table th input:checkbox').on('click' , function(){
+					var that = this;
+					$(this).closest('table').find('tr > td:first-child input:checkbox')
+					.each(function(){
+						this.checked = that.checked;
+						$(this).closest('tr').toggleClass('selected');
+					});
+						
+		});
+
+
+		//编辑
+		$(".btn-info").on("click", function(){
+			var id = $(this).attr("data");
+			window.location.href="__CONTROLLER__/mod/id/" + id;
+		});
+	</script>

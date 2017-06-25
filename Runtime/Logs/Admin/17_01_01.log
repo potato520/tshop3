@@ -1,0 +1,309 @@
+[ 2017-01-01T00:15:47+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: 非法操作:index
+
+[ 2017-01-01T00:15:53+08:00 ] 127.0.0.1 /index.php/admin/login/longin
+ERR: 非法操作:longin
+
+[ 2017-01-01T00:15:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-01-01T00:15:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-01-01T00:26:12+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:26:19+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:26:22+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201582877
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:26:22+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201582877
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:26:22+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:27:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201621122
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201621122
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:27:02+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201622350
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:02+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201622350
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:02+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201666357
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201666357
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:27:51+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201671892
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:51+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201671892
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:27:51+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:28:25+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201705595
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:28:25+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201705595
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:28:25+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:28:33+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201713749
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:28:33+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.swf?preventswfcaching=1483201713749
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:28:33+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:29:04+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:29:08+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.php
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:29:35+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:29:37+08:00 ] 127.0.0.1 /index.php/Admin/Test/Test/shangchuan
+ERR: 非法操作:Test
+
+[ 2017-01-01T00:29:59+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:30:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:30:33+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:30:34+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:30:47+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:31:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:31:08+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:31:09+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:31:26+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:32:09+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:32:13+08:00 ] 127.0.0.1 /index.php/Admin/Test/uploadify.php
+ERR: 非法操作:uploadify
+
+[ 2017-01-01T00:32:20+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:33:34+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:34:31+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:36:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:37:10+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:40:35+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:41:20+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:42:14+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:43:39+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:45:38+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:46:07+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:46:33+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:47:40+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:48:16+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:51:57+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:52:06+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:52:33+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:52:43+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:52:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:53:10+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:53:51+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:54:07+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:55:22+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:55:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:56:03+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:56:04+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:56:48+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:57:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:58:35+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T00:59:03+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:00:47+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:00:48+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:01:37+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:02:27+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:02:30+08:00 ] 127.0.0.1 /index.php/Admin/Test/shang1chuan
+ERR: 非法操作:shang1chuan
+
+[ 2017-01-01T01:07:11+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:07:12+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:07:15+08:00 ] 127.0.0.1 /index.php/Admin/Test/shang111chuan
+ERR: 非法操作:shang111chuan
+
+[ 2017-01-01T01:07:24+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:07:39+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:07:45+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:08:04+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:08:07+08:00 ] 127.0.0.1 /index.php/Admin/Test/shangc123huan
+ERR: 非法操作:shangc123huan
+
+[ 2017-01-01T01:08:41+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:08:59+08:00 ] 127.0.0.1 /index.php/Admin/Test/index.js.map
+ERR: 非法操作:index.js
+
+[ 2017-01-01T01:09:03+08:00 ] 127.0.0.1 /index.php/Admin/Test/shangc123huan
+ERR: 非法操作:shangc123huan
+
+[ 2017-01-01T20:50:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-01-01T20:50:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-01-01T20:50:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-01-01T20:50:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-01-01T20:50:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-01-01T22:03:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-01-01T22:03:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-01-01T22:03:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-01-01T22:03:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-01-01T22:03:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-01-01T22:03:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+

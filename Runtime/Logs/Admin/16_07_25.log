@@ -1,0 +1,62 @@
+[ 2016-07-25T11:56:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-07-25T11:56:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-07-25T11:57:49+08:00 ] 127.0.0.1 /index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+
+[ 2016-07-25T11:57:50+08:00 ] 127.0.0.1 /index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=2 )  [ RunTime:0.0000s ]
+
+[ 2016-07-25T11:58:15+08:00 ] 127.0.0.1 /index.php/Admin/Attr/getAttrById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `attr` [ RunTime:0.0150s ]
+SQL: SELECT a.*,t.type_name FROM attr AS a LEFT JOIN type AS t ON a.type_id=t.id WHERE t.id=1 [ RunTime:0.0000s ]
+
+[ 2016-07-25T19:31:06+08:00 ] 127.0.0.1 /index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+
+[ 2016-07-25T19:31:08+08:00 ] 127.0.0.1 /index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=2 )  [ RunTime:0.0010s ]
+
+[ 2016-07-25T19:32:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-07-25T19:32:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-07-25T19:32:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-07-25T19:32:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-07-25T19:32:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-07-25T19:32:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-07-25T19:32:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+

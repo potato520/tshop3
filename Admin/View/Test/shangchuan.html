@@ -1,0 +1,59 @@
+	<include file="Tpl:head_main" />	
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Plugin/uploadify/css/uploadify.css">
+<script type="text/javascript" src="__PUBLIC__/Admin/Plugin/uploadify/js/jquery.uploadify.js"></script>
+<div class="page-content">
+	<h1>uploadify</h1>
+	
+
+	<div id="fileQueue"></div>
+<input type="file" name="uploadify" id="uploadify" />
+<p>
+        <a href="javascript:$('#uploadify').uploadify('upload', '*')">开始</a>
+        <a href="javascript:$('#uploadify').uploadify('cancel', '*')">取消</a>
+</p>
+    <script>
+    //设置一个时间戳
+    <?php echo $timestamp = time();?> 
+    $(function(){
+        $("#uploadify").uploadify({
+            'formData' :{
+                'timestamp' : '<?php echo $timestamp;?>', //输入设置好的时间戳
+                'token' : '<?php echo md5('unique_salt' . $timestamp);?>' //设置一个md5字符串
+            },
+            'auto': true, //是否自动上传
+            'debug': false, //是否开启浏览器调试
+            'buttonText': '上传音乐', //上传按钮的文字
+            'fileTypeExts': '*.jpg;*.gif;*.bmp;*.png;*.jpeg;*.mp3', //允许的图片类型
+            'fileSizeLimit': '10000MB', //单张图片的最大值
+            'multi': false, //时运允许多张图片一起上传
+            'removeCompleted' : false,
+            'swf' : '__PUBLIC__/Admin/Plugin/uploadify/js/uploadify.swf',
+            'uploader' : '{:U('Test/shangc123huan')}',
+            'onUploadSuccess' : function(file,data,response){
+                    var obj = jQuery.parseJSON(data);
+                    // var obj = eval('(' + data + ')');
+                    console.log(obj);
+                    // Object { code: 200, savepath: "uploads/1482931430_5080.jpg" }
+                    if(obj.code==200){
+                        alert('上传成功啦');
+                        var str= '<img src="'+obj.savepath+'">';
+                        $("#con").append(str);
+                        $(".uploadify-queue-item").hide();
+                        $(".suc").html('上传成功');
+                        //删除进度条
+                        $('#uploadify').uploadify('cancel', 'SWFUpload_0_0');
+
+                    }else{
+                        alert(obj.errorMsg);
+                    }
+                }
+
+        });
+    });
+
+    </script>
+
+    <div class="" id="con"></div>
+    <span class="suc"></span>
+</div>

@@ -1,0 +1,31 @@
+[ 2017-05-24T21:16:27+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-24T21:16:28+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-05-24T21:16:48+08:00 ] 127.0.0.1 /tshop/index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=1 )  [ RunTime:0.0005s ]
+
+[ 2017-05-24T21:16:49+08:00 ] 127.0.0.1 /tshop/index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=2 )  [ RunTime:0.0008s ]
+
+[ 2017-05-24T21:17:24+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Goods/delpic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `goods_pics` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_pics` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] unlink(./Public/Admin/Uploads/pics/2016-07-27/s_5798993ad54c6.jpg): No such file or directory D:\WWW\tshop\Admin\Controller\GoodsController.class.php 第 237 行.
+NOTIC: [2] unlink(./Public/Admin/Uploads/pics/2016-07-27/m_5798993ad54c6.jpg): No such file or directory D:\WWW\tshop\Admin\Controller\GoodsController.class.php 第 238 行.
+NOTIC: [2] unlink(./Public/Admin/Uploads/pics/2016-07-27/b_5798993ad54c6.jpg): No such file or directory D:\WWW\tshop\Admin\Controller\GoodsController.class.php 第 239 行.
+SQL: DELETE FROM `goods_pics` WHERE `id` = 2 [ RunTime:0.0019s ]
+

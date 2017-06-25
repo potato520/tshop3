@@ -1,0 +1,54 @@
+
+	<include file="Tpl:head_main" />	
+
+	
+	
+
+	<div class="page-content">
+	<div class="row">
+	<div class="col-xs-12">
+
+	<div class="widget-main no-padding">
+		<!-- PAGE CONTENT BEGINS -->	
+		<form action="__CONTROLLER__/add" enctype="multipart/form-data"  method="post" class="form-horizontal" role="form">
+
+			<div class="form-group">
+				
+
+				<div class="form-group">
+					<label class="col-sm-1 control-label no-padding-right" for="form-field-1">商品类型</label>
+
+					<div class="col-sm-7">
+						<input type="text"  id="form-field-1" placeholder="商品类型" class="col-xs-10 col-sm-5" name="type_name" />	
+					</div>
+				</div>
+
+				<div class="space-4"></div>
+
+				
+
+				<div class="clearfix form-actions">
+					<div class="col-md-offset-1 col-md-8">
+						<button class="btn btn-info" type="button"> <i class="icon-ok bigger-110"></i>
+							提交
+						</button>
+						&nbsp; &nbsp; &nbsp;
+						<button class="btn" type="reset"> <i class="icon-undo bigger-110"></i>
+							清空
+						</button>
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+	</div>
+
+	<script>
+	$(function(){
+		$('.btn-info').on('click',function(){
+		$('form').submit();
+	});
+	})
+</script>

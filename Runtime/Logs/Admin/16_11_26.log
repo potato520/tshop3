@@ -1,0 +1,68 @@
+[ 2016-11-26T13:46:03+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-11-26T13:46:03+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-11-26T13:48:48+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-11-26T13:48:48+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-11-26T13:48:48+08:00 ] 127.0.0.1 /tshop/index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-11-26T13:50:35+08:00 ] 127.0.0.1 /tshop/index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-26T13:50:40+08:00 ] 127.0.0.1 /tshop/index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=2 )  [ RunTime:0.0006s ]
+
+[ 2016-11-26T14:05:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-11-26T14:05:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-11-26T14:05:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-11-26T14:06:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-11-26T14:06:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2016-11-26T14:06:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2016-11-26T15:05:39+08:00 ] 127.0.0.1 /index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.1765s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=1 )  [ RunTime:0.0006s ]
+
+[ 2016-11-26T15:05:41+08:00 ] 127.0.0.1 /index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=9 )  [ RunTime:0.0005s ]
+
+[ 2016-11-26T15:05:44+08:00 ] 127.0.0.1 /index.php/Admin/goodscategory/getCateById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `goods_category` WHERE ( pid=13 )  [ RunTime:0.0007s ]
+
